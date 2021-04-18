@@ -6,7 +6,9 @@
 "-x",'--blockx'     :      number of blocks on x axis
 "-y",'--blocky'     :      number of blocks on y axis
 "-b",'--blocksize'  :      size of the output block
+
 **Output**:
+
 2 plot:
 1st with sacle each componant by global maximum
 2nd with sacle each componant by local maximum
