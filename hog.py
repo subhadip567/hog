@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from skimage.draw import line_aa
 import argparse
-def dira(img,imd,d):
+def dira(img,imd,d):#gradient will distribute to 2 closest bin with waightage as its distance from the bin
     m,n=np.shape(img)
     p=np.zeros(d)
     for i in range(m):
@@ -17,7 +17,7 @@ def dira(img,imd,d):
             p[b]+=c*img[i,j]
             p[a]+=(1-c)*img[i,j]
     return p
-def conve(b,a):
+def conve(b,a):#convolution
     (m,n)=b.shape
     (p,q)=a.shape
     c=np.zeros((m-p+1,n-q+1))
