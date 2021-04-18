@@ -38,7 +38,8 @@
 ### Output:
 
 #### 2 plot:
-<li>sacled each componant by global maximum</li>
-<li>2nd with sacle each componant by local maximum</li>
+<li>Sacled each componant by global maximum</li>
+<li>Sacled each componant by local maximum</li>
+
 #### 2 images:
 local.png and global.png
