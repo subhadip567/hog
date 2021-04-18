@@ -2,7 +2,7 @@
 
 ## histogram of gradient:
 
-**Input**:
+### Input:
 
 <table>
 <thead>
@@ -35,9 +35,10 @@
 </tbody>
 </table>
 
-**Output**:
+### Output:
 
-2 plot:
-1st with sacle each componant by global maximum
-2nd with sacle each componant by local maximum
-2 image saved on same directory local.png and global.png
+#### 2 plot:
+<ol>sacled each componant by global maximum<\ol>
+<ol>2nd with sacle each componant by local maximum<\ol>
+#### 2 images:
+local.png and global.png
